@@ -1,0 +1,161 @@
+{
+  "submission": "Lab 17 \u2014 FRED/ALFRED point-in-time rates app",
+  "prepared_at": "2026-10-29T14:06:59.338152-04:00",
+  "app_sha256_verified_against_executed_copy": "c98da9cdcb990cded1c90a70da5c1639081242e4a9c58ec26b5843a476ac9d4f",
+  "relative_markdown_links_checked": 19,
+  "known_answer_series_matched": 4,
+  "PAYEMS_revision_probe_passed": true,
+  "fresh_eyes_attribution": "User-supplied PAYEMS attack; no separate partner identity supplied.",
+  "files": [
+    {
+      "path": "asof_app.py",
+      "bytes": 14841,
+      "sha256": "c98da9cdcb990cded1c90a70da5c1639081242e4a9c58ec26b5843a476ac9d4f"
+    },
+    {
+      "path": "DATA_CARD.md",
+      "bytes": 9455,
+      "sha256": "975049b4a9c53c9ad34b8039f40f14bb18da5cc27fe8667c47e8debca1b06301"
+    },
+    {
+      "path": "evidence/asof_dgs10/DGS10_asof_2026-09-30.csv",
+      "bytes": 285788,
+      "sha256": "9ca1aa45c8f4d12ca4b4ec3f072085e3ad2ff099e8124110cda2f87a84bbe4f0"
+    },
+    {
+      "path": "evidence/asof_dgs10/DGS10_asof_2026-10-29.csv",
+      "bytes": 286124,
+      "sha256": "b537905303efc51a804c5a17fbb1143592307e687b6aa113aa8449d1e31478ce"
+    },
+    {
+      "path": "evidence/asof_dgs10/DGS10_today.csv",
+      "bytes": 286115,
+      "sha256": "f7d417abfb82345884f09780702407907baf3f5aee867277bc86766fe9c683c5"
+    },
+    {
+      "path": "evidence/asof_dgs10/month_end_comparison.json",
+      "bytes": 2558,
+      "sha256": "d5f1edb9567620f1cb9084dd9fbd6c0c140f63021f9534640588f39a2c1b25b3"
+    },
+    {
+      "path": "evidence/downloads/BAA_ALFRED_2025-01-15.csv",
+      "bytes": 21815,
+      "sha256": "41b9fddb5a56b0b04475f1d2a69b4467c4562b39e8416a68c09865a08cbb91d9"
+    },
+    {
+      "path": "evidence/downloads/BAA_ALFRED_2026-10-05.csv",
+      "bytes": 22172,
+      "sha256": "bfab45507e4cd92bc99a70f6c23cf8f5eb90c0125627867caf7417893d748588"
+    },
+    {
+      "path": "evidence/downloads/BAA_ALFRED_2026-10-29.csv",
+      "bytes": 22172,
+      "sha256": "de28b81acf9c95b6d2469c3f20b799183ba3c6e56f54a2666c199c7a172763ea"
+    },
+    {
+      "path": "evidence/downloads/BAA_FRED_2026-10-29.csv",
+      "bytes": 22163,
+      "sha256": "b7d5b8db9147b97a2c974b8bfb78a37c465de7a96c2ff53dd9b48132d0b26a0a"
+    },
+    {
+      "path": "evidence/downloads/DGS10_ALFRED_2025-01-15.csv",
+      "bytes": 278295,
+      "sha256": "89b4843a021ca6c0690629239c1da454cb488277263cfb66be31ab6e6317a5bb"
+    },
+    {
+      "path": "evidence/downloads/DGS10_ALFRED_2026-03-31.csv",
+      "bytes": 283577,
+      "sha256": "0c1e58fd505720edc9c6d80a90bf60ed91877b8d06226bbd0e47c7e6d822643d"
+    },
+    {
+      "path": "evidence/downloads/DGS10_ALFRED_2026-04-01.csv",
+      "bytes": 283594,
+      "sha256": "840d0f6b80b92f7e4b0961e607b2c19414967467597494b3bfa3a15be6d135e2"
+    },
+    {
+      "path": "evidence/downloads/DGS10_ALFRED_2026-10-05.csv",
+      "bytes": 285839,
+      "sha256": "e5167c63653d2df768caa04a892ee0ca92150fd59a11ce07a35befd34f27d523"
+    },
+    {
+      "path": "evidence/downloads/DGS10_ALFRED_2026-10-29.csv",
+      "bytes": 286124,
+      "sha256": "b537905303efc51a804c5a17fbb1143592307e687b6aa113aa8449d1e31478ce"
+    },
+    {
+      "path": "evidence/downloads/DGS10_FRED_2026-10-29.csv",
+      "bytes": 286115,
+      "sha256": "f7d417abfb82345884f09780702407907baf3f5aee867277bc86766fe9c683c5"
+    },
+    {
+      "path": "evidence/downloads/FEDFUNDS_ALFRED_2025-01-15.csv",
+      "bytes": 14479,
+      "sha256": "7fe33f87238cf84a31a30dbfb5a7bc1a6350f9aec7a881c0a2cb210b60f8cf1c"
+    },
+    {
+      "path": "evidence/downloads/FEDFUNDS_ALFRED_2026-10-05.csv",
+      "bytes": 14836,
+      "sha256": "1bc9a756f39837028a96d0c3eeae72c158789bd99137be7e8dddfcc5ccc41763"
+    },
+    {
+      "path": "evidence/downloads/FEDFUNDS_ALFRED_2026-10-29.csv",
+      "bytes": 14836,
+      "sha256": "f447efe695174dc6912e6619e763c706b102ba78cde2f6b2b5df01a116d2e065"
+    },
+    {
+      "path": "evidence/downloads/FEDFUNDS_FRED_2026-10-29.csv",
+      "bytes": 14827,
+      "sha256": "e81bdfd1b428f0ae72051c414c2931f6efac4ca94e3eb30552632dfc25906e9b"
+    },
+    {
+      "path": "evidence/downloads/MORTGAGE30US_ALFRED_2025-01-15.csv",
+      "bytes": 48324,
+      "sha256": "65597befbadbe5341139979f7805581a640eca8119de0df87347a6d58025e9d7"
+    },
+    {
+      "path": "evidence/downloads/MORTGAGE30US_ALFRED_2026-10-05.csv",
+      "bytes": 49854,
+      "sha256": "1fd45c0d5fa87922a4c09339418acb892840b230fbfae843cc0bdee0f1fa878c"
+    },
+    {
+      "path": "evidence/downloads/MORTGAGE30US_ALFRED_2026-10-29.csv",
+      "bytes": 49922,
+      "sha256": "2e10e361b76f1f37c89b05141ce9bc4ed257db32d22a2c62329e86abc620ce9d"
+    },
+    {
+      "path": "evidence/downloads/MORTGAGE30US_FRED_2026-10-29.csv",
+      "bytes": 49913,
+      "sha256": "016df284689957f7cf0221ac5a4094ebaea4983c1fd19493823493f2480d884a"
+    },
+    {
+      "path": "evidence/downloads/PAYEMS_ALFRED_2025-01-15.csv",
+      "bytes": 19069,
+      "sha256": "d01bc02023a6638c04552c1aec11b3f8071caeff67c61ac06e1e36429e61906f"
+    },
+    {
+      "path": "evidence/downloads/PAYEMS_FRED_2026-10-29.csv",
+      "bytes": 19459,
+      "sha256": "1ad60ee195b9f5464c4be3143ec872755fb6533383f37aae894220a8edae2fcd"
+    },
+    {
+      "path": "evidence/VALIDATION.json",
+      "bytes": 14674,
+      "sha256": "5ac07fdd98f6cef64440be59f11571a82844f506a8cf339ce2c163f3ba886c0e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12669,
+      "sha256": "e9cc5f90cde074b14310f58007b3abf6f2260c6f6f873d6518846cedf4c331d8"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 123,
+      "sha256": "f180063131db10634268eefababbf6fb5efce159965f99af5147578073dbce28"
+    },
+    {
+      "path": "verify_lab17.py",
+      "bytes": 6249,
+      "sha256": "1be2eb053096de8e63e079567d7420a9a00c74aecfbf287caa8e8c0df273f2e1"
+    }
+  ]
+}
