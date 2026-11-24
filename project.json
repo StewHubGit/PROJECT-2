@@ -1,0 +1,25 @@
+{
+  "freeze_date": "2026-11-10",
+  "author": "Sam Stewart",
+  "ai_announcement": "AI announcement: Prepared with OpenAI Codex assistance; education, not investment advice.",
+  "target_annual": 0.065,
+  "planning_cpi": 0.025,
+  "reserve_minimum": 0.03,
+  "additional_annual_cost_bps": 25.0,
+  "cost_status": "Assumed common annual drag for one falsification test; not measured trading costs or a fee quote. Fund expenses already embedded; taxes not modeled.",
+  "benchmark_weights": {"SGOV": 0.0, "IEF": 0.0, "BND": 0.4, "VT": 0.6},
+  "expected_prices_sha256": "6e3ea0aaf5d07a81e0453cadf71129ff85c60466c003ce21e1d661b1addfa9bc",
+  "decision": {
+    "action": "REDESIGN",
+    "live_capital_usd": 0,
+    "live_allocation_range_percent": [0, 0],
+    "conditional_shadow_notional_range_usd": [0, 1000000],
+    "proposed_shadow_notional_usd": 1000000,
+    "proposed_duration_months": 12,
+    "monitoring_owner": "Sam Stewart (proposed; committee acceptance pending)",
+    "condition": "Written CIO objective and S9 loss definition, documented implementation costs, and a preregistered point-in-time protocol before any prospective shadow trial.",
+    "monitor": "Monthly audit of source/vintage receipts, reserve coverage, modeled and observed costs, overrides and allocation changes; daily reserve check in any future implementation.",
+    "kill_rule": "Stop the shadow trial at the first unavailable required vintage, unexplained source mismatch, reserve below 3%, unapproved turnover above 25%, or breach of the CIO-approved loss rule.",
+    "reversal_trigger": "Committee may approve a new zero-live-capital shadow protocol only after the written conditions are met. Live adoption requires a separate decision and evidence; twelve months cannot validate a rolling five-year return objective."
+  }
+}

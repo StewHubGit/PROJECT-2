@@ -1,0 +1,55 @@
+{
+  "repository_url": "https://github.com/StewHubGit/PROJECT-2",
+  "ref": "main",
+  "ownership_confirmed": false,
+  "ai_off_prediction_commit_url": null,
+  "ai_off_result_commit_url": null,
+  "videos": [
+    {
+      "number": 1,
+      "youtube_url": "https://youtu.be/WInPo0dUxlU",
+      "transcript_path": "videos/transcripts/video-1.md",
+      "transcript_url": null,
+      "transcripts_enabled": false,
+      "transcript_provided": true,
+      "transcript_audio_verified": false,
+      "recorded_reported": true,
+      "uploaded_reported": true,
+      "url_provided_by_user": true,
+      "public_playback_verified": false
+    },
+    {
+      "number": 2,
+      "youtube_url": "https://youtu.be/FAXDJCUvLdQ",
+      "transcript_path": "videos/transcripts/video-2.md",
+      "transcript_url": null,
+      "transcripts_enabled": false,
+      "recorded_reported": true,
+      "uploaded_reported": true,
+      "transcript_provided": true,
+      "transcript_audio_verified": false,
+      "url_provided_by_user": true,
+      "public_playback_verified": false
+    },
+    {
+      "number": 3,
+      "youtube_url": "https://youtu.be/LtLmjlzuApk",
+      "transcript_path": "videos/transcripts/video-3.md",
+      "transcript_url": null,
+      "transcripts_enabled": false,
+      "recorded_reported": true,
+      "uploaded_reported": true,
+      "transcript_provided": true,
+      "transcript_audio_verified": false,
+      "url_provided_by_user": true,
+      "public_playback_verified": false
+    }
+  ],
+  "recordings_reported_complete": [
+    1,
+    2,
+    3
+  ],
+  "uploaded_to_youtube_studio_reported": true,
+  "repository_path_prefix": ""
+}
