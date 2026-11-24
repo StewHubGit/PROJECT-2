@@ -1,161 +1,250 @@
 {
-  "submission": "Lab 17 \u2014 FRED/ALFRED point-in-time rates app",
-  "prepared_at": "2026-10-29T14:06:59.338152-04:00",
-  "app_sha256_verified_against_executed_copy": "c98da9cdcb990cded1c90a70da5c1639081242e4a9c58ec26b5843a476ac9d4f",
-  "relative_markdown_links_checked": 19,
-  "known_answer_series_matched": 4,
-  "PAYEMS_revision_probe_passed": true,
-  "fresh_eyes_attribution": "User-supplied PAYEMS attack; no separate partner identity supplied.",
-  "files": [
-    {
-      "path": "asof_app.py",
-      "bytes": 14841,
-      "sha256": "c98da9cdcb990cded1c90a70da5c1639081242e4a9c58ec26b5843a476ac9d4f"
-    },
-    {
-      "path": "DATA_CARD.md",
-      "bytes": 9455,
-      "sha256": "975049b4a9c53c9ad34b8039f40f14bb18da5cc27fe8667c47e8debca1b06301"
-    },
-    {
-      "path": "evidence/asof_dgs10/DGS10_asof_2026-09-30.csv",
-      "bytes": 285788,
-      "sha256": "9ca1aa45c8f4d12ca4b4ec3f072085e3ad2ff099e8124110cda2f87a84bbe4f0"
-    },
-    {
-      "path": "evidence/asof_dgs10/DGS10_asof_2026-10-29.csv",
-      "bytes": 286124,
-      "sha256": "b537905303efc51a804c5a17fbb1143592307e687b6aa113aa8449d1e31478ce"
-    },
-    {
-      "path": "evidence/asof_dgs10/DGS10_today.csv",
-      "bytes": 286115,
-      "sha256": "f7d417abfb82345884f09780702407907baf3f5aee867277bc86766fe9c683c5"
-    },
-    {
-      "path": "evidence/asof_dgs10/month_end_comparison.json",
-      "bytes": 2558,
-      "sha256": "d5f1edb9567620f1cb9084dd9fbd6c0c140f63021f9534640588f39a2c1b25b3"
-    },
-    {
-      "path": "evidence/downloads/BAA_ALFRED_2025-01-15.csv",
-      "bytes": 21815,
-      "sha256": "41b9fddb5a56b0b04475f1d2a69b4467c4562b39e8416a68c09865a08cbb91d9"
-    },
-    {
-      "path": "evidence/downloads/BAA_ALFRED_2026-10-05.csv",
-      "bytes": 22172,
-      "sha256": "bfab45507e4cd92bc99a70f6c23cf8f5eb90c0125627867caf7417893d748588"
-    },
-    {
-      "path": "evidence/downloads/BAA_ALFRED_2026-10-29.csv",
-      "bytes": 22172,
-      "sha256": "de28b81acf9c95b6d2469c3f20b799183ba3c6e56f54a2666c199c7a172763ea"
-    },
-    {
-      "path": "evidence/downloads/BAA_FRED_2026-10-29.csv",
-      "bytes": 22163,
-      "sha256": "b7d5b8db9147b97a2c974b8bfb78a37c465de7a96c2ff53dd9b48132d0b26a0a"
-    },
-    {
-      "path": "evidence/downloads/DGS10_ALFRED_2025-01-15.csv",
-      "bytes": 278295,
-      "sha256": "89b4843a021ca6c0690629239c1da454cb488277263cfb66be31ab6e6317a5bb"
-    },
-    {
-      "path": "evidence/downloads/DGS10_ALFRED_2026-03-31.csv",
-      "bytes": 283577,
-      "sha256": "0c1e58fd505720edc9c6d80a90bf60ed91877b8d06226bbd0e47c7e6d822643d"
-    },
-    {
-      "path": "evidence/downloads/DGS10_ALFRED_2026-04-01.csv",
-      "bytes": 283594,
-      "sha256": "840d0f6b80b92f7e4b0961e607b2c19414967467597494b3bfa3a15be6d135e2"
-    },
-    {
-      "path": "evidence/downloads/DGS10_ALFRED_2026-10-05.csv",
-      "bytes": 285839,
-      "sha256": "e5167c63653d2df768caa04a892ee0ca92150fd59a11ce07a35befd34f27d523"
-    },
-    {
-      "path": "evidence/downloads/DGS10_ALFRED_2026-10-29.csv",
-      "bytes": 286124,
-      "sha256": "b537905303efc51a804c5a17fbb1143592307e687b6aa113aa8449d1e31478ce"
-    },
-    {
-      "path": "evidence/downloads/DGS10_FRED_2026-10-29.csv",
-      "bytes": 286115,
-      "sha256": "f7d417abfb82345884f09780702407907baf3f5aee867277bc86766fe9c683c5"
-    },
-    {
-      "path": "evidence/downloads/FEDFUNDS_ALFRED_2025-01-15.csv",
-      "bytes": 14479,
-      "sha256": "7fe33f87238cf84a31a30dbfb5a7bc1a6350f9aec7a881c0a2cb210b60f8cf1c"
-    },
-    {
-      "path": "evidence/downloads/FEDFUNDS_ALFRED_2026-10-05.csv",
-      "bytes": 14836,
-      "sha256": "1bc9a756f39837028a96d0c3eeae72c158789bd99137be7e8dddfcc5ccc41763"
-    },
-    {
-      "path": "evidence/downloads/FEDFUNDS_ALFRED_2026-10-29.csv",
-      "bytes": 14836,
-      "sha256": "f447efe695174dc6912e6619e763c706b102ba78cde2f6b2b5df01a116d2e065"
-    },
-    {
-      "path": "evidence/downloads/FEDFUNDS_FRED_2026-10-29.csv",
-      "bytes": 14827,
-      "sha256": "e81bdfd1b428f0ae72051c414c2931f6efac4ca94e3eb30552632dfc25906e9b"
-    },
-    {
-      "path": "evidence/downloads/MORTGAGE30US_ALFRED_2025-01-15.csv",
-      "bytes": 48324,
-      "sha256": "65597befbadbe5341139979f7805581a640eca8119de0df87347a6d58025e9d7"
-    },
-    {
-      "path": "evidence/downloads/MORTGAGE30US_ALFRED_2026-10-05.csv",
-      "bytes": 49854,
-      "sha256": "1fd45c0d5fa87922a4c09339418acb892840b230fbfae843cc0bdee0f1fa878c"
-    },
-    {
-      "path": "evidence/downloads/MORTGAGE30US_ALFRED_2026-10-29.csv",
-      "bytes": 49922,
-      "sha256": "2e10e361b76f1f37c89b05141ce9bc4ed257db32d22a2c62329e86abc620ce9d"
-    },
-    {
-      "path": "evidence/downloads/MORTGAGE30US_FRED_2026-10-29.csv",
-      "bytes": 49913,
-      "sha256": "016df284689957f7cf0221ac5a4094ebaea4983c1fd19493823493f2480d884a"
-    },
-    {
-      "path": "evidence/downloads/PAYEMS_ALFRED_2025-01-15.csv",
-      "bytes": 19069,
-      "sha256": "d01bc02023a6638c04552c1aec11b3f8071caeff67c61ac06e1e36429e61906f"
-    },
-    {
-      "path": "evidence/downloads/PAYEMS_FRED_2026-10-29.csv",
-      "bytes": 19459,
-      "sha256": "1ad60ee195b9f5464c4be3143ec872755fb6533383f37aae894220a8edae2fcd"
-    },
-    {
-      "path": "evidence/VALIDATION.json",
-      "bytes": 14674,
-      "sha256": "5ac07fdd98f6cef64440be59f11571a82844f506a8cf339ce2c163f3ba886c0e"
-    },
-    {
-      "path": "README.md",
-      "bytes": 12669,
-      "sha256": "e9cc5f90cde074b14310f58007b3abf6f2260c6f6f873d6518846cedf4c331d8"
-    },
-    {
-      "path": "requirements.txt",
-      "bytes": 123,
-      "sha256": "f180063131db10634268eefababbf6fb5efce159965f99af5147578073dbce28"
-    },
-    {
-      "path": "verify_lab17.py",
-      "bytes": 6249,
-      "sha256": "1be2eb053096de8e63e079567d7420a9a00c74aecfbf287caa8e8c0df273f2e1"
-    }
-  ]
+  "download_sources.py": {
+    "bytes": 3230,
+    "sha256": "c97ec90523221b2ae834f95e379782fcbab53aa761f2038e5dff1294f17b3b51"
+  },
+  "evidence/company_selection.md": {
+    "bytes": 1156,
+    "sha256": "30febdcad021c7628b89a950663b4df33a7c30a24e617054d35f7dc2e1529f0d"
+  },
+  "evidence/memo_audit.json": {
+    "bytes": 1409,
+    "sha256": "0a050ef33446778139eb2233aaf0bb953e52cb68a89d65b962523b76830cd1b1"
+  },
+  "evidence/project2_fund_context.md": {
+    "bytes": 23642,
+    "sha256": "0c510c749b2f1855f3f5822d92dca153e1856b99569c23c315a11972368912ef"
+  },
+  "evidence/raw/ben_graham_original.md": {
+    "bytes": 14297,
+    "sha256": "4b5daa03fea0cf385e0d7158f61969767d9200af4b087e4340222ca8d51bf654"
+  },
+  "evidence/raw/ben_graham_original.md.receipt.json": {
+    "bytes": 278,
+    "sha256": "532d4bbcbf075814f46abbfce079e43242047c8f109229481b5183fcdf892125"
+  },
+  "evidence/raw/COST_companyfacts.json": {
+    "bytes": 3694553,
+    "sha256": "b675ced201b27ede2b0d26ca6fd873befe96a1afa9679339a2d0b964187dcdff"
+  },
+  "evidence/raw/COST_companyfacts.json.receipt.json": {
+    "bytes": 239,
+    "sha256": "ba1ca3142b322e40e127a807ebb7958de46df34706739cb812c59fac4cff035c"
+  },
+  "evidence/raw/COST_submissions.json": {
+    "bytes": 159569,
+    "sha256": "8bae787cceecdd8dfa83dfc44c1cf8f826bed9e2ed35ec90aa1d00d52d42cc9e"
+  },
+  "evidence/raw/COST_submissions.json.receipt.json": {
+    "bytes": 228,
+    "sha256": "63baf7cd8b884b0e454ad89fdde0497cf435ee087be7a455fd0835ad093e11fc"
+  },
+  "evidence/raw/JPM_companyfacts.json": {
+    "bytes": 8132761,
+    "sha256": "058c3b43971439f545b351cd477b28ce573edaca5f7ac1aaa0915787e8f689aa"
+  },
+  "evidence/raw/JPM_companyfacts.json.receipt.json": {
+    "bytes": 239,
+    "sha256": "278fdf49bd8eb05d0b694efe21f2962786e58e0ab0afb6bf4f756f8f19c287e3"
+  },
+  "evidence/raw/michael_burry_original.md": {
+    "bytes": 17757,
+    "sha256": "2145c5ec26c16d7db238351090b85e33a6a42eaf3f57b77c027254b287649489"
+  },
+  "evidence/raw/michael_burry_original.md.receipt.json": {
+    "bytes": 281,
+    "sha256": "e16c24190e13440481f9665a745eb9af5fed78cbb10b94ea87d7602932370faa"
+  },
+  "evidence/raw/NVDA_companyfacts.json": {
+    "bytes": 4092966,
+    "sha256": "19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff"
+  },
+  "evidence/raw/NVDA_companyfacts.json.receipt.json": {
+    "bytes": 239,
+    "sha256": "5c8bfbdc0af43e6a79fe65bca3c0c3d181f4c5b906b61b5ac57abf8064b9c9c5"
+  },
+  "evidence/raw/NVDA_submissions.json": {
+    "bytes": 159761,
+    "sha256": "d0d8527d09b31831022a6367d05bbdd5f2d2b3eda55323fd3383395016b90aaa"
+  },
+  "evidence/raw/NVDA_submissions.json.receipt.json": {
+    "bytes": 228,
+    "sha256": "c12a00b550c29ddf7b762afe1b1a1b270bd6b63f55562392900a0c408ccadf8d"
+  },
+  "evidence/raw/VT_factsheet.pdf": {
+    "bytes": 462850,
+    "sha256": "e3d4e8e5577971634e1733e3712ef32f61f9cfb90b3b8cb8d578f2aa3a1a9dd4"
+  },
+  "evidence/raw/VT_factsheet.pdf.receipt.json": {
+    "bytes": 217,
+    "sha256": "9ab62e40667f31a4d21d6c72098b26399d87a40af41760061d45e11826336e28"
+  },
+  "evidence/raw/warren_buffett_original.md": {
+    "bytes": 14544,
+    "sha256": "6c3bd4281933091a9dff6faa20e3cc9e992b3c98357354071815c438c5dd7b86"
+  },
+  "evidence/raw/warren_buffett_original.md.receipt.json": {
+    "bytes": 282,
+    "sha256": "8bb05334ed2a610c36d79a96d14536b73842671469fe8399ffbd0b21c21388c8"
+  },
+  "evidence/run_log.txt": {
+    "bytes": 64278,
+    "sha256": "4626081b6722269fd4f7a5b29c6e1f48a819d08973e235bea389884e9e40fbd0"
+  },
+  "evidence/source_manifest.json": {
+    "bytes": 2927,
+    "sha256": "26c8bc7b7d3a3754b314766a2229f4a472bc1f14fcc39150a1197f7b70354edc"
+  },
+  "evidence/validation.json": {
+    "bytes": 13955,
+    "sha256": "240564ade84af207deff64910226849a4a58e7c5da9bb412c44c86bbbe467477"
+  },
+  "evidence/validation_log.txt": {
+    "bytes": 27916,
+    "sha256": "d592b31287bf32c0431b4e5af3ad65548e3fa40313945a5f981648df0da0a64a"
+  },
+  "evidence/VALIDATION_SUMMARY.md": {
+    "bytes": 944,
+    "sha256": "10161f4e3b3c43f2803469307ab083ef93669ad9f2daf7b59b36dc48f439b714"
+  },
+  "evidence/VT_factsheet_extracted.txt": {
+    "bytes": 9719,
+    "sha256": "276865fb355c879797c68c77c963f95bc070788d99e501426423e2e54f60ea3e"
+  },
+  "outputs/COST/buffett_memo.md": {
+    "bytes": 738,
+    "sha256": "909f6348f74931df948e0e604a999c0e3ef14ead69b98005d9339784606abd80"
+  },
+  "outputs/COST/burry_memo.md": {
+    "bytes": 757,
+    "sha256": "87f737a20b0760bcadeb20972f4ffb5e373175fb3a1eab528f378cc38951f857"
+  },
+  "outputs/COST/facts_and_checks.json": {
+    "bytes": 15916,
+    "sha256": "645129f64551564dfb8e45ee876acaff6fe75a028c205c3a6b573f04b3bb8b89"
+  },
+  "outputs/COST/graham_memo.md": {
+    "bytes": 907,
+    "sha256": "21bf4fdf7d260fb254519360c36f2bf6cd49cbac2193a7ebde35cfeedbd90b3f"
+  },
+  "outputs/COST/printed_numbers.md": {
+    "bytes": 7414,
+    "sha256": "a4271aa92a248d9afb1895768cfa5636a8e532ebc08a2b7c4652f3b408f4459f"
+  },
+  "outputs/COST_threshold_probe/buffett_memo.md": {
+    "bytes": 738,
+    "sha256": "909f6348f74931df948e0e604a999c0e3ef14ead69b98005d9339784606abd80"
+  },
+  "outputs/COST_threshold_probe/burry_memo.md": {
+    "bytes": 757,
+    "sha256": "87f737a20b0760bcadeb20972f4ffb5e373175fb3a1eab528f378cc38951f857"
+  },
+  "outputs/COST_threshold_probe/facts_and_checks.json": {
+    "bytes": 15916,
+    "sha256": "258ed6814c63051a5b0b4353222c92ad65033768fb2e3756b576f618ed46ec3d"
+  },
+  "outputs/COST_threshold_probe/graham_memo.md": {
+    "bytes": 907,
+    "sha256": "769e7972f6f72e1fdc65d9c35a5892ccc5cfd46cf5eeb2d0c59d58513569cd21"
+  },
+  "outputs/COST_threshold_probe/printed_numbers.md": {
+    "bytes": 7414,
+    "sha256": "842692f98f0164fa94ff06618a90fb792ba454955b5c674285cee47179be11eb"
+  },
+  "outputs/JPM/buffett_memo.md": {
+    "bytes": 750,
+    "sha256": "d19b40b6bb4ebef825c7b18b9b23f2b9114001aa368ce6628dd32c751a3517c1"
+  },
+  "outputs/JPM/burry_memo.md": {
+    "bytes": 799,
+    "sha256": "0b5507415febff81867223d28e3a570d16e79e678c3b1268e1930351938fb70b"
+  },
+  "outputs/JPM/facts_and_checks.json": {
+    "bytes": 16850,
+    "sha256": "b959630efc414aef411beb4715cd1232edb21c5ed694ccc32d4c2abb068f877b"
+  },
+  "outputs/JPM/graham_memo.md": {
+    "bytes": 918,
+    "sha256": "743af9eabb812d84c6c02c18bff6471cf224e15fd2e4c94653ba93f1b99834f1"
+  },
+  "outputs/JPM/printed_numbers.md": {
+    "bytes": 8755,
+    "sha256": "18c0cffe57a425384671de6f2f2a6d94c8b690b78b85d9d4c8dd2a16f9a7548a"
+  },
+  "outputs/NVDA/buffett_memo.md": {
+    "bytes": 739,
+    "sha256": "3fa3dac9bec746935894b4a738acbaa31e5470dd2ed411b9577ad87a94500383"
+  },
+  "outputs/NVDA/burry_memo.md": {
+    "bytes": 810,
+    "sha256": "115c5ac9a49e18b0d5616210f5470c53912e3ee51875c63688738b8e8e2bb36c"
+  },
+  "outputs/NVDA/facts_and_checks.json": {
+    "bytes": 15641,
+    "sha256": "c51c70be8350cc1305418eb402a0a65b24bc0f1109ec4c6f50ca968b04a65e6b"
+  },
+  "outputs/NVDA/graham_memo.md": {
+    "bytes": 909,
+    "sha256": "e78e03de84396312de37100d816805f218312dd6536d89b7e77ffc4d0575753c"
+  },
+  "outputs/NVDA/printed_numbers.md": {
+    "bytes": 7144,
+    "sha256": "a9d620c3cb276021e2284253229a4435d0fb468024f4fbc745cde33e62a0fccd"
+  },
+  "package_submission.py": {
+    "bytes": 3685,
+    "sha256": "13af47e7176cbe6b87c109f01e149f4d982133b1ae92481d95e19e63b83c46cc"
+  },
+  "panel.py": {
+    "bytes": 26428,
+    "sha256": "77983de9f9f9dffd666249e46821415e28033cb829dcc6f3ba68f951d388705a"
+  },
+  "requirements-refresh.txt": {
+    "bytes": 95,
+    "sha256": "c2d5c70114c5e0105e46fb61e40d172eef6e9fbe83fa7d13e680035c0a09cb5c"
+  },
+  "skills/ben-graham-expert/rules.json": {
+    "bytes": 27,
+    "sha256": "b63ef49c256302a5d9cef7e31e18d4b1070b509eeb6fe33e09f6ed6d51b16453"
+  },
+  "skills/ben-graham-expert/SKILL.md": {
+    "bytes": 1224,
+    "sha256": "adc7ffe835a2f69748b1643e9233bdcc486b6e94c1915bdf1b58beac3d61120c"
+  },
+  "skills/michael-burry-expert/rules.json": {
+    "bytes": 32,
+    "sha256": "5398adaff240a7685f33c9598f0e7cbe186b02ad19ed5c4c6669dfa20e37f141"
+  },
+  "skills/michael-burry-expert/SKILL.md": {
+    "bytes": 1089,
+    "sha256": "541d42e8b2888ac78ce41711c8af200b4ec2a76266a018aa39a51c36fdeb0a12"
+  },
+  "skills/warren-buffett-expert/rules.json": {
+    "bytes": 26,
+    "sha256": "70ceb5b9712ef45d4d5f4cac86ffb6587f7ee7e91d941f09119142e80445936f"
+  },
+  "skills/warren-buffett-expert/SKILL.md": {
+    "bytes": 1002,
+    "sha256": "30d2005f717d409409871fc99ec33213f5e430b11789ac3b03f4bf87d5d5014a"
+  },
+  "START_HERE.md": {
+    "bytes": 2946,
+    "sha256": "37c908b957e08b2b4a1de9cdbe798551495e7848c737ee6f804a262ec6eca534"
+  },
+  "SUBMISSION.html": {
+    "bytes": 12116,
+    "sha256": "f4fe657c69b9ec353fe92f433b16df7db3ca360343098c905cb8d82380a7f4f9"
+  },
+  "SUBMISSION.md": {
+    "bytes": 10031,
+    "sha256": "0015b3e67541651b1c1c13f3da24abef25d8e1e232c8ac774098e3e6c0b300b3"
+  },
+  "tests/cost_known_answer.json": {
+    "bytes": 287,
+    "sha256": "b03dd8de91acb95fd3b060ff83a82b801cc6a75a1fcbcf95d878350241cd4f5b"
+  },
+  "validate.py": {
+    "bytes": 6971,
+    "sha256": "c81d9e8e6ef70e36b0e7672af5ee9869758201f345dba8b9580129da0a894a07"
+  }
 }

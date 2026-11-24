@@ -1,0 +1,3 @@
+# Optional; offline panel and acceptance need no third-party packages.
+requests>=2.31
+pypdf>=5
