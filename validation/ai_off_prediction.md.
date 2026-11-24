@@ -1,0 +1,25 @@
+Before the run
+
+I’m changing the annual return objective from 6.50% to 6.00%, which would be CPI plus 4% if CPI runs at 2%. Everything else stays the same.
+
+I expect less VT and more SGOV, probably 70% SGOV and 30% VT, with no IEF or BND. Gross return should drop to about 6.17%, return after cost to about 5.92%, and volatility to roughly 4.5%.
+
+I still expect a FAIL because the return after cost would be below the new 6.00% objective. The reserve should pass since 70% is well above the 3% minimum.
+
+The optimizer chooses the lowest-volatility mix that clears the objective before costs. Lowering the objective should let it drop five percentage points of VT. A 75/25 mix only grosses about 5.76%, so I expect it to stop at 70/30. That clears the objective by about 17 basis points, which is less than the 25-basis-point cost. So the lower objective could still fail, while a 6.25% objective would actually pass at 65/35. That suggests the verdict depends heavily on where the five-point grid lands.
+
+My recommendation stays REDESIGN with $0 live capital. I’d only reconsider if the optimizer checks returns after costs, its choice clears the confirmed CPI plus 4% objective with a real cushion in both estimation windows, turnover is costed, and the CIO’s 10% calendar-year loss rule is defined and tested.
+
+A surprise pass would only mean the objective moved. It wouldn’t justify live capital.
+
+After the run
+
+The result matched what I expected. I changed only the annual return objective from 6.50% to 6.00%. Everything else stayed at the listed defaults in Project 2 mode using the saved funds.
+
+The app selected 70% SGOV and 30% VT. Gross return was 6.17%, return after the 25-basis-point cost was 5.92%, and volatility was 4.55%. The reserve passed, but the portfolio failed the S2 net planning hurdle.
+
+Lowering the objective by 50 basis points still produced a failure. The optimizer only checks whether gross return clears the objective, so it reduced VT by five percentage points to lower risk. That left about 17 basis points of gross cushion, which the 25-basis-point cost wiped out. The grid can make the pass/fail result sensitive to exactly where the objective falls.
+
+The other app checks showed the same issue. With zero additional cost, the same 70/30 mix passed at 6.17%. With VT’s mean reduced by one percentage point, the app selected 65/35 and still failed at 5.98%.
+
+My recommendation stays REDESIGN with $0 live capital. The fix should be in the design, rather than changing inputs to get a pass. The optimizer should screen returns after costs. Even then, I’d only reconsider live capital after the actual CPI plus 4% objective is confirmed, turnover is costed, the CIO’s 10% loss rule is defined and tested, and the selected mix still clears the hurdle in the 36-month window.
